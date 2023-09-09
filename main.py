@@ -13,8 +13,12 @@ st.markdown("""
 """)
 
 st.markdown("<a name='section-1'></a>", unsafe_allow_html=True)
-st.header("What is a Self-Driving Lab?")
-st.write("This is the content for what is a self-driving lab")
+st.header("What are Self-Driving Lab?")
+st.image("robot_arm.jpg")
+with open('what_are_SDL.md', 'r') as file:
+  content = file.read()
+
+st.markdown(content)
 
 st.markdown("<a name='section-2'></a>", unsafe_allow_html=True)
 st.header("Self-Driving Labs Map")
