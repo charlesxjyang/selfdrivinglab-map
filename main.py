@@ -14,8 +14,8 @@ st.markdown("""
 
 st.markdown("<a name='section-1'></a>", unsafe_allow_html=True)
 st.header("What are Self-Driving Lab?")
-st.image("robot_arm.jpg")
-with open('what_are_SDL.md', 'r') as file:
+st.image("assets/robot_arm.jpg")
+with open('assets/what_are_SDL.md', 'r') as file:
   content = file.read()
 
 st.markdown(content)
